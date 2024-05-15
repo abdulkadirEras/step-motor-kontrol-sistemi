@@ -201,12 +201,6 @@ void loop()
     if(Buffer[4]==0x40 && Buffer[5]==0x50 && Buffer[8]==0x01)
       {
         oynatBakalim=true; 
-        if(stepMotor2Kayit[0]==0 || stepMotor2Kayit[1]==0 || stepMotor2Kayit[2]==0 || stepMotor2Kayit[3]==0 || stepMotor2Kayit[4]==0 || stepMotor1Kayit[5]==0)
-        {
-          gpio_set_level(GPIO_NUM_2,1);
-          delay(500);
-          gpio_set_level(GPIO_NUM_2,0);
-        }
 
       }
     }
