@@ -1,7 +1,7 @@
 //DWIN Ekran ile 7 tane step motoru hız ayarı ile sürme
 //V1.0
 //Abdulkadir Eraslan tarafından tasarlanmıştır.
-//Eksik olan step motor kayıdı yapıldıktan sonra enerjisi gidip geldiğinde kayıt siliniyor
+
 
 #include <Arduino.h>
 #include "driver/gpio.h"
