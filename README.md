@@ -16,7 +16,7 @@ Operatörün kaydettiği çalışma şeklini soldaki ekrandan play butonuna doku
 
 Acil stop butonuna operatör bastığında ise sistem tüm step motorlarını durdurur.
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 A control system was designed using a 2.4 Inch Dwin HMI Display and an Espressif ESP32 microcontroller to regulate the speed and direction (clockwise/counter-clockwise) of seven stepper motors.
 
 The system's software was developed using C++, and the hardware was designed in KiCad.
